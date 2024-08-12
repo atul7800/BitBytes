@@ -18,6 +18,7 @@ module.exports = [
     config: {
       enabled: true,
       origin: [
+        'ttp://localhost:5173',
         'https://bytebits.vercel.app', // Your frontend URL
       ],
       headers: '*',
